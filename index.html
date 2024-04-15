@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css" />
+
+    <script src="https://kit.fontawesome.com/9d51afb1db.js" crossorigin="anonymous"></script>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     
+    <title>PhonePe</title>
+</head>
+<body>
+
+        <!-- Header Component -->
+        <header>
+          <div class="container">
+                      <nav class="p-2">
+                          <div class="row header-content">
+                          <div class="col-6 col-md-2 col-lg-2">
+                              <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713201733/AppLanding/app-logo_yxqziq.svg" alt="app-logo" class="app-logo"/>
+                          </div>
+                          <div class="col-2 d-md-none">
+                              <i class="fa-solid fa-bars fa-lg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i>
+                          </div>
+                          <div class="col-md-10 col-lg-9  d-none d-md-block ">
+                              <ul class="header-ul-list header-content">
+                                  <li><a href='#' class="nav-link">BUSINESS SOLUTIONS</a></li>
+                                  <li><a href='#' class="nav-link">PRESS</a></li>
+                                  <li><a href='#' class="nav-link">CAREERS</a></li>
+                                  <li><a href='#' class="nav-link">ABOUT US</a></li>
+                                  <li><a href='#' class="nav-link">BLOG</a></li>
+                                  <li><a href='#' class="nav-link">CONTACT US</a></li>
+                                  <li><a href='#' class="nav-link">TRUST & SAFETY</a></li>
+                              </ul>
+                          </div>   
+                      </div>
+                      </nav>
+              </div>
+                  <!--Offcanvas Bootstrap Component-->
+              <div class="offcanvas offcanvas-end w-75 d-md-none" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body p-0">
+                      <ul class="ul-list">
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Home</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Business Solutions</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Press</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Careers</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">About Us</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Blog</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Contact Us</p>
+                              </div>
+                          </li>
+                          <li class="nav-item-container">
+                              <div class="flex-row">
+                                  <div class="nav-item-active"></div>
+                                  <p class="nav-item">Trust & Safety</p>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+      </header>     
+      <section>
+          <!--Image Carousel till Medium Screens-->
+          <section class="container-fluid banner-section p-0 d-md-none">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="2000">
+                      <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                      <div class="active-slide d-flex flex-column justify-content-start align-items-start" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796401/AppLanding/SmallView/nhkgsskxkzmi1wncma98.png);">
+                          <div style="width: 250px; margin:20px;">
+                              <h1 class="first-slide-text-content"><span style="color:#cf9fff">Download all your favourite apps</span> <br>from India's very own Android app store</h1>
+                              <button class="btn btn-primary bg-white w-100 border-rounded text-black">Download Indus Appstore</button>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                      <div class="active-slide d-flex flex-column justify-content-start align-items-center" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796400/AppLanding/SmallView/rpvrgdpibyxlf7wv1tpb.jpg);">
+                          <div class="w-75 m-4 second-slide-text-content">
+                          <h1 style="font-weight: bolder;"><span style="color:gray;text-decoration: line-through;font-size: 20px;">2% </span> FREE</h1>
+                          <p style="font-weight: bold;">Accept Payments for your online business at zero cost</p>
+                          <p>Signup for PhonePe Payment Gateway</p>
+                          <button class="btn btn-secondary">Get Started</button>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                      <div class="active-slide" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796400/AppLanding/SmallView/vocdkioksotldwkjsg8g.jpg);">
+                          <div class="third-slide-text-content">
+                          <h3>One payment solution<br> for all your business needs</h3>
+                          <h1>PhonePe Business App</h1>
+                          <button class="btn btn-primary">Register Now</button>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                      <div class="active-slide" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796400/AppLanding/SmallView/zwx2bapqafjtarq2jfv6.jpg);">
+                          <div class="fourth-slide-text-content">
+                              <h1>Invest in stocks easily</h1>
+                              <p>Download Share.Market and open your<br>Free* Demat Account today to invest</p>
+                              <button>Open Account</button>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                      <div class="active-slide" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796401/AppLanding/SmallView/nahieawnql9zvk8v0pzo.png);">
+                          <div class="fifth-slide-text-content">
+                              <h1>View Statements & <br>manage financial <br> data consents</h1>
+                              <p>Register on PhonePe Account <br>Aggregator now@</p>
+                              <button>Know More</button>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                      <div class="active-slide" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796401/AppLanding/SmallView/x0rzsocu0oojojjyu8jc.png);">
+                          <div class="sixth-slide-text-content">
+                              <h1>PhonePe <span>Pulse</span></h1>
+                              <h3>Beat of Progress</h3>
+                              <p>Find out how many moves in a country of<br>140 Crore! Now updated with the latest data<br>for Q4 2023(Oct - Dec)</p>
+                              <button>Explore Now</button>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </section>
+          <!--Image Carousel from Medium Screens-->
+          <section class="container-fluid p-0 banner-section d-none d-md-block">
+          <div id="LargeViewCarouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="2000">
+                  <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#LargeViewCarouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                  <div class="active-slide d-flex flex-column justify-content-center align-items-center" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/lcbwowbxkx0iwyma235j.png);">
+                      <div class="w-75">
+                          <h1 class="first-slide-text-content"><span style="color:#cf9fff">Download all your favourite apps</span> <br>from India's very own <br>Android app store</h1>
+                          <button class="btn btn-primary bg-white w-25 border-rounded text-black">Download Indus Appstore</button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="active-slide d-flex flex-column justify-content-center align-items-center" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/doe7kxizae8ebyfllq42.jpg);">
+                      <div class="w-75 m-4 second-slide-text-content">
+                      <h1 style="font-weight: bolder;"><span style="color:gray;text-decoration: line-through;font-size: 20px;">2% </span> FREE</h1>
+                      <p style="font-weight: bold;">Accept Payments for your <br>online business at zero cost</p>
+                      <p>Signup for PhonePe Payment Gateway</p>
+                      <button class="btn btn-secondary">Get Started</button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="active-slide d-flex flex-column justify-content-center align-items-start" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/aqf5dztywsaljwampqfq.jpg);">
+                      <div class="third-slide-text-content">
+                      <h3>One payment solution<br> for all your business needs</h3>
+                      <h1 class="">PhonePe Business App</h1>
+                      <button class="btn btn-primary">Register Now</button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="active-slide d-flex flex-column justify-content-center align-items-start p-0" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/wafra7uermy6ab3t9ter.jpg);">
+                      <div class="fourth-slide-text-content">
+                          <h1>Invest in stocks easily</h1>
+                          <p>Download Share.Market and open your<br>Free* Demat Account today to invest</p>
+                          <button>Open Account</button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="active-slide d-flex flex-column justify-content-start align-items-start" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/tddqmkf0epiq3bjyuzcq.png);">
+                      <div class="fifth-slide-text-content">
+                          <h1>View Statements & <br>manage financial <br> data consents</h1>
+                          <p>Register on PhonePe Account <br>Aggregator now@</p>
+                          <button>Know More</button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="active-slide d-flex flex-column justify-content-start align-items-start" style="background-image: url(https://res.cloudinary.com/dlwydxzdi/image/upload/v1711796289/AppLanding/LargeView/jsa6vg8g5rdipvfhsig7.png);">
+                      <div class="sixth-slide-text-content">
+                          <h1>PhonePe <span>Pulse</span></h1>
+                          <h3>Beat of Progress</h3>
+                          <p>Find out how many moves in a country of<br>140 Crore! Now updated with the latest data<br>for Q4 2023(Oct - Dec)</p>
+                          <button>Explore Now</button>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          
+          </section>
+      
+      
+          <!--Cards Section-->
+          <section>
+              <div class="container">
+                  <div class="row p-2">
+              <div class="col-12 col-md-4">
+                  <div class="card active-card border-dark">
+                  <img class="card-img-top" src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1711957026/AppLanding/SectionCards/Screenshot_2024-04-01_130542_mdj1cg.png" alt="Card image cap" width="100%">
+                  <div class="card-body d-flex flex-row justify-content-between align-items-center">
+                    <h5 class="card-title">Insurance</h5>
+                    <i class="fa-solid fa-arrow-right-long" style="color: #0964aa;" ></i>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card active-card border-dark">
+                  <img class="card-img-top" src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1711957026/AppLanding/SectionCards/Screenshot_2024-04-01_130555_b8cgou.png" alt="Card image cap">
+                  <div class="card-body d-flex flex-row justify-content-between align-items-center">
+                    <h5 class="card-title">Investments</h5>
+                    <i class="fa-solid fa-arrow-right-long" style="color: #0964aa;"></i>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card active-card border-dark y">
+                  <img class="card-img-top" src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1711957026/AppLanding/SectionCards/Screenshot_2024-04-01_130604_susnty.png" alt="Card image cap">
+                  <div class="card-body d-flex flex-row justify-content-between align-items-center">
+                    <h5 class="card-title">Insurance</h5>
+                    <i class="fa-solid fa-arrow-right-long" style="color: #0964aa;"></i>
+                  </div>
+                </div>
+                </div>
+                  </div>
+              </div>
+          </section>
+      
+          <section class="mt-3">
+              <div class="container">
+                  <div class="row p-2 d-flex align-items-center">
+                      <div class="col-12 col-md-6">
+                          <div class="app-features">
+                              <h2>Simple, Fast & Secure</h2> 
+                              <video width="100%" height="auto" class="d-md-none">
+                                  <source src="https://res.cloudinary.com/dlwydxzdi/video/upload/v1711968626/AppLanding/home-fast-secure-v3_almuvp.mp4">
+                              </video>
+      
+                          <div class="col-12">
+                              <h3>One app for all things money.</h3>
+                              <p>Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</p>
+                              <hr style="border-width: 2px;color:black;">
+                          </div>
+                          <div class="d-flex flex-column">
+                              <h3>Pay whenever you like, wherever you like.</h3>
+                              <p>Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.</p>
+                              <hr style="border-width: 2px;color:black;">
+                          </div>
+                          <div class="d-flex flex-column">
+                              <h3>Find all your favourite apps on PhonePe Switch.</h3>
+                              <p>Book flights, order food or buy groceries. Use all your favourite apps without downloading them.</p>
+                              <hr style="border-width: 2px;color:black;">
+                          </div>
+                          </div>
+                      </div>
+                      <div class="d-none d-md-block col-md-6">
+                          <video width="100%" height="auto">
+                              <source src="https://res.cloudinary.com/dlwydxzdi/video/upload/v1711968626/AppLanding/home-fast-secure-v3_almuvp.mp4">
+                          </video>
+                      </div>
+                      </div>
+              </div>
+          </section>
+      
+      
+          <section>
+              <div class="container">   
+                  <div class="trust-card-container">
+                      <div class="row p-2">
+                          <div class="col-12 col-md-2">
+                              <div class="text-center">
+                                  <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1712917983/AppLanding/TrustCard/download_nddlg3.png" class="trust-logo" />
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-2"></div>
+                          <div class="col-12 col-md-7">
+                              <div>
+                              <h1>Your Money stays safe.</h1>
+                              <p class="text-center">PhonePe protects your money with the best-in-class security systems that help minimize frauds.</p>
+                              <div class="d-flex flex-row justify-content-between w-auto">
+                                  <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1712917983/AppLanding/TrustCard/download_2_irgeek.png" class="security-logo"/>
+                                  <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1712917983/AppLanding/TrustCard/download_1_wuim55.png" class="security-logo"/>
+                              </div>
+                              </div>
+                          </div>
+                          </div>
+                  </div>
+              </div>
+          </section>
+
+          <section class="partner-showcase">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+            <h1 class="container-title">At 3.9 Crore<br>
+                stores, apps, websites & more</h1>
+
+            <button class="partner-btn text-center">Partner with us
+                <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+            </button>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mt-4 d-md-none">
+                        <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713186807/AppLanding/partner-section-mob_mrdkq7.png" alt="partner-mob" class="partner-logo animate__animated animate__fadeInLeft"/>
+                    </div>
+                    <div class="d-noen d-md-block col-md-12 mt-4">
+                        <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713186807/AppLanding/partner-section-desk_ctlrh2.png" alt="partner-large" class="partner-logo animate__animated animate__fadeInLeft"/>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="d-none d-md-block">
+                            <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713187591/AppLanding/basket-mob_ohkh65.png" alt="business-logo" class="w-100" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="business-overview-container">
+                            <h1>For Business</h1>
+                            <p>Find the digital payment solution that fits your business needs</p>
+                            <h3>I want to:</h3>
+                            <ul class="business-ul-list">
+                                <li class="business-selection-container">
+                                    <a href="#" class="nav-link">
+                                    <div class="flex-container">
+                                        <p>Be on PhonePe Switch</p>
+                                        <i class="fa-solid fa-angle-right" class="effect"></i>
+                                    </div>
+                                    <p>Get new users for your app</p>
+                                    </a>
+                                </li>
+                                <li  class="business-selection-container">
+                                    <a href="#" class="nav-link">
+                                    <div class="flex-container">
+                                        <p>Accept payments at stores</p>
+                                        <i class="fa-solid fa-angle-right" class="effect"></i>
+                                    </div>
+                                    </a>
+                                    <p>Help your business go cashless</p>
+                                </li>
+                                <li class="business-selection-container">
+                                    <a href="#" class="nav-link">
+                                    <div class="flex-container">
+                                        <p>Integrate PhonePe Payment Gateway</p>
+                                        <i class="fa-solid fa-angle-right" class="effect"></i>
+                                    </div>
+                                    <p>Process online payments seamlessly</p>
+                                    </a>
+                                </li>
+                                <li class="business-selection-container">
+                                    <a href="#" class="nav-link">
+                                    <div class="flex-container">
+                                        <p>Advertise on PhonePe</p>
+                                        <i class="fa-solid fa-angle-right" class="effect"></i>
+                                    </div>
+                                    <p>Advertise & let customers know about you</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12">
+                        <div class="d-md-none">
+                            <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713187591/AppLanding/basket-mob_ohkh65.png" alt="business-logo" class="w-100" />
+                        </div>
+                    </div>
+            </div>
+          </section>
+
+          <section class="app-stats-container">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-4 mb-3">
+                            <p>Trusted by over</p>
+                            <h1>53+ Crore</h1>
+                            <p>Registered Users</p>
+                       
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <p>Accepted all over</p>
+                        <h1>India</h1>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <p>Accepted at</p>
+                        <h1>3.9 Crore</h1>
+                        <p>Stores</p>
+                    </div>
+               
+                <div class="col-12 stats-align-container">
+                    <h2>Get the latest data trends and insights on PhonePe Pulse!</h2>
+                    <button>Explore Now</button>
+                </div>
+                </div>
+            </div>
+          </section>
+      </section>
+      <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-12 col-md-2 col-lg-1 h-25">
+                        <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1713201733/AppLanding/app-logo_yxqziq.svg" alt="app-logo" class="app-logo"/>
+                    </div>
+                    <div class="col-12 p-0 d-md-none">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessSolutions" aria-expanded="true" aria-controls="collapseOne">
+                              Business Solutions
+                            </button>
+                          </h2>
+                          <div id="businessSolutions" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="ul-list">
+                                    <li><a href="#" class="nav-link">Payment Gateway</a></li>
+                                    <li><a href="#" class="nav-link">Guardian by PhonePe</a></li>
+                                    <li><a href="#" class="nav-link">Express Checkout</a></li>
+                                    <li><a href="#" class="nav-link">PhonePe Switch</a></li>
+                                    <li><a href="#" class="nav-link">Offline Merchant</a></li>
+                                    <li><a href="#" class="nav-link">Advertise on PhonePe</a></li>
+                                    <li><a href="#" class="nav-link">SmartSpeaker</a></li>
+                                    <li><a href="#" class="nav-link">PhonePe Lending</a></li>
+                                    <li><a href="#" class="nav-link">POS Machine</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#insurance" aria-expanded="false" aria-controls="collapseTwo">
+                              Insurance
+                            </button>
+                          </h2>
+                          <div id="insurance" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="ul-list">
+                                    <li><a href="#" class="nav-link">Motor Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Bike Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Car Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Health Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Arogya Sanjeevani Policy</a></li>
+                                    <li><a href="#" class="nav-link">Life Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Term Life Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Personal Accident Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Travel Insurance</a></li>
+                                    <li><a href="#" class="nav-link">Domestic Travel Insurance</a></li>
+                                    <li><a href="#" class="nav-link">International Travel Insurance</a></li>
+                                
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#investments" aria-expanded="false" aria-controls="collapseThree">
+                             Investments
+                            </button>
+                          </h2>
+                          <div id="investments" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="ul-list">
+                                    <li><a href="#" class="nav-link">24K Gold</a></li>
+                                    <li><a href="#" class="nav-link">Liquid Funds</a></li>
+                                    <li><a href="#" class="nav-link">Tax Saving Funds</a></li>
+                                    <li><a href="#" class="nav-link">Equity Funds</a></li>
+                                    <li><a href="#" class="nav-link">Debt Funds</a></li>
+                                    <li><a href="#" class="nav-link">Hybrid Funds</a></li>
+                                    
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general" aria-expanded="false" aria-controls="collapseFour">
+                               General
+                              </button>
+                            </h2>
+                            <div id="general" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <ul class="ul-list">
+                                      <li><a href="#" class="nav-link">About Us</a></li>
+                                      <li><a href="#" class="nav-link">Careers</a></li>
+                                      <li><a href="#" class="nav-link">Contact Us</a></li>
+                                      <li><a href="#" class="nav-link">Press</a></li>
+                                      <li><a href="#" class="nav-link">Ethics</a></li>
+                                      <li><a href="#" class="nav-link">Report Vulnerability</a></li>
+                                      <li><a href="#" class="nav-link">Merchant Partners</a></li>
+                                      <li><a href="#" class="nav-link">Blog</a></li>
+                                      <li><a href="#" class="nav-link">Tech Blog</a></li>
+                                      <li><a href="#" class="nav-link">PhonePe Pulse</a></li>
+                                      
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#legal" aria-expanded="false" aria-controls="collapseFive">
+                               Legal
+                              </button>
+                            </h2>
+                            <div id="legal" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                  <ul class="ul-list">
+                                      <li><a href="#" class="nav-link">Terms & Condition</a></li>
+                                      <li><a href="#" class="nav-link">Privacy Policy</a></li>
+                                      <li><a href="#" class="nav-link">Grievance Policy</a></li>
+                                      <li><a href="#" class="nav-link">How to Pay</a></li>
+                                      <li><a href="#" class="nav-link">Ethics</a></li>
+                                      <li><a href="#" class="nav-link">E-Waste Policy</a></li>
+                                      <li><a href="#" class="nav-link">Trust & Safety</a></li>
+                                      <li><a href="#" class="nav-link">Global Anti-Corruption Policy</a></li>
+        
+                                      
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-8 col-lg-9 footer-content">
+
+                      <div class="row">
+                        <div class="col-md-3">
+                        <div>
+                            <h1 class="footer-heading">Business Solutions</h1>
+                            <ul class="ul-list">
+                            <li><a href="#" class="nav-link">Payment Gateway</a></li>
+                            <li><a href="#" class="nav-link">Guardian by PhonePe</a></li>
+                            <li><a href="#" class="nav-link">Express Checkout</a></li>
+                            <li><a href="#" class="nav-link">PhonePe Switch</a></li>
+                            <li><a href="#" class="nav-link">Offline Merchant</a></li>
+                            <li><a href="#" class="nav-link">Advertise on PhonePe</a></li>
+                            <li><a href="#" class="nav-link">SmartSpeaker</a></li>
+                            <li><a href="#" class="nav-link">PhonePe Lending</a></li>
+                            <li><a href="#" class="nav-link">POS Machine</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-3">
+                        <div>
+                            <h1 class="footer-heading">Insurance</h1>
+                            <ul class="ul-list">
+                            <li><a href="#" class="nav-link">Motor Insurance</a></li>
+                            <li><a href="#" class="nav-link">Bike Insurance</a></li>
+                            <li><a href="#" class="nav-link">Car Insurance</a></li>
+                            <li><a href="#" class="nav-link">Health Insurance</a></li>
+                            <li><a href="#" class="nav-link">Arogya Sanjeevani Policy</a></li>
+                            <li><a href="#" class="nav-link">Life Insurance</a></li>
+                            <li><a href="#" class="nav-link">Term Life Insurance</a></li>
+                            <li><a href="#" class="nav-link">Personal Accident Insurance</a></li>
+                            <li><a href="#" class="nav-link">Travel Insurance</a></li>
+                            <li><a href="#" class="nav-link">Domestic Travel Insurance</a></li>
+                            <li><a href="#" class="nav-link">International Travel Insurance</a></li>
+                        
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-2">
+                        <div>
+                            <h1 class="footer-heading">Investments</h1>
+                            <ul class="ul-list">
+                            <ul class="ul-list">
+                                <li><a href="#" class="nav-link">24K Gold</a></li>
+                                <li><a href="#" class="nav-link">Liquid Funds</a></li>
+                                <li><a href="#" class="nav-link">Tax Saving Funds</a></li>
+                                <li><a href="#" class="nav-link">Equity Funds</a></li>
+                                <li><a href="#" class="nav-link">Debt Funds</a></li>
+                                <li><a href="#" class="nav-link">Hybrid Funds</a></li>
+                            </ul>
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-2">
+                        <div>
+                            <h1 class="footer-heading">General</h1>
+                            <ul class="ul-list">
+                            
+                                <li><a href="#" class="nav-link">About Us</a></li>
+                                <li><a href="#" class="nav-link">Careers</a></li>
+                                <li><a href="#" class="nav-link">Contact Us</a></li>
+                                <li><a href="#" class="nav-link">Press</a></li>
+                                <li><a href="#" class="nav-link">Ethics</a></li>
+                                <li><a href="#" class="nav-link">Report Vulnerability</a></li>
+                                <li><a href="#" class="nav-link">Merchant Partners</a></li>
+                                <li><a href="#" class="nav-link">Blog</a></li>
+                                <li><a href="#" class="nav-link">Tech Blog</a></li>
+                                <li><a href="#" class="nav-link">PhonePe Pulse</a></li>
+                                
+                        
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-2">
+                        <div>
+                            <h1 class="footer-heading">Legal</h1>
+                            <ul class="ul-list">
+                            <li><a href="#" class="nav-link">Terms & Condition</a></li>
+                            <li><a href="#" class="nav-link">Privacy Policy</a></li>
+                            <li><a href="#" class="nav-link">Grievance Policy</a></li>
+                            <li><a href="#" class="nav-link">How to Pay</a></li>
+                            <li><a href="#" class="nav-link">Ethics</a></li>
+                            <li><a href="#" class="nav-link">E-Waste Policy</a></li>
+                            <li><a href="#" class="nav-link">Trust & Safety</a></li>
+                            <li><a href="#" class="nav-link">Global Anti-Corruption Policy</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                    
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <div class="certificate-container">
+                            <h1 class="footer-heading">Certification</h1>
+                            <img src="https://res.cloudinary.com/dlwydxzdi/image/upload/v1712928844/AppLanding/sisa-f4b48e5a5d0f5862515676359b94c75a_oqkgzt.png" alt="certificate-logo" class="certificate-logo"/>
+                        </div>
+                        <div class="playstore-container">
+                          <h1 class="footer-heading">See All Apps</h1>
+                          <button class="footer-download-btn">Download Now</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="social-icons-main-container">
+            <div class="social-icons-container">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <p class="copyright">&copy;2024, All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

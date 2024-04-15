@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+}
+
+
+.app-logo{
+    width: 100%;
+    height: 100%;
+}
+.banner-section{
+    height: 600px;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.y{
+    border: 1px solid red;
+}
+
+.header-ul-list{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header-ul-list li{
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    body{
+        width: 150vw;
+    }
+    .header-ul-list{
+        height: 50px;
+        width: 100vw;
+    }
+    .header-ul-list li{
+        font-size: 16px;
+    }
+}
+ @media  screen and (min-width:1024px) {
+    .header-ul-list li{
+        font-size: 18px;
+    }
+ }
+
+.nav-item-container{
+    margin-top: 10px;
+    height:20px;
+    width: 100%;
+}
+.nav-item{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-left:25px;
+}
+.nav-item-active{
+    height: 20px;
+    width: 15px;
+}
+
+.carousel{
+    padding-bottom: 50px;
+}
+@media screen and (min-width:768px) {
+    .carousel{
+        padding-bottom: 60px;
+    }
+    
+}
+
+.carousel .carousel-indicators button{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color:gray;
+}
+
+@media screen and (min-width:768px) {
+    .carousel .carousel-indicators button{
+        height: 15px;
+        width: 15px;
+    }
+    
+}
+.carousel .carousel-indicators button.active{
+    background-color: blue;
+  }
+.carousel .carousel-indicators button:hover{
+    background-color: blue;
+  }
+
+
+.active-slide{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.active-slide button{
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.first-slide-text-content{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    line-height: 32px;
+}
+@media screen and (min-width:768px) {
+    .first-slide-text-content{
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+.second-slide-text-content{
+    color:#6739b7;
+    line-height: 20px;
+}
+.second-slide-text-content p{
+    font-size: 18px;
+}
+@media screen and (min-width:768px) {
+    .second-slide-text-content{
+       line-height: 32px;
+    }
+    .second-slide-text-content p{
+        font-size: 28px;
+    }
+}
+.second-slide-text-content button{
+    background-color: #6739b7;
+    color: #ffffff;
+}
+.third-slide-text-content{
+    color: #138808;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.third-slide-text-content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.third-slide-text-content h1{
+    font-size: 22px;
+    font-weight: bolder;
+}
+@media screen and (min-width:768px) {
+    .third-slide-text-content{
+        margin-left: 15vw;
+    }
+   .third-slide-text-content h3{
+    font-size: 32px;
+   }
+   .third-slide-text-content h1{
+    font-size: 36px;
+   }
+}
+.fourth-slide-text-content{
+    padding-top: 100px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+.fourth-slide-text-content h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.fourth-slide-text-content p{
+    font-size: 16px;
+}
+.fourth-slide-text-content button{
+    width: 150px;
+    padding: 5px;
+    height: 40px;
+    color: #ffffff;
+    background-color: forestgreen;
+}
+@media screen and (min-width:768px) {
+   .fourth-slide-text-content{
+        margin-left: 15vw;
+   }
+   .fourth-slide-text-content h1{
+        font-size: 42px;
+        font-weight: bolder;
+   }
+   .fourth-slide-text-content p{
+        font-size: 26px;
+   }
+   .fourth-slide-text-content button{
+        width: 250px;
+   }
+}
+.fifth-slide-text-content{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.fifth-slide-text-content h1{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.fifth-slide-text-content p{
+    font-size: 18px;
+    color: #6739b7;
+    font-weight: bold;
+}
+.fifth-slide-text-content button{
+    width: 150px;
+    height: 40px;
+    background-color:blue;
+    color: #ffffff;
+}
+@media screen and (min-width:768px) {
+    .fifth-slide-text-content{
+
+        margin-left: 15vw;
+    }
+    .fifth-slide-text-content h1{
+        font-size: 42px;
+    }
+    .fifth-slide-text-content p{
+        font-size: 26px;
+    }
+    .fifth-slide-text-content button{
+        width: 250px;
+    }
+ }
+.sixth-slide-text-content{
+    padding-top:100px;
+    padding-left: 20px;
+}
+.sixth-slide-text-content h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: orange;
+}
+.sixth-slide-text-content span{
+    color: white;
+}
+.sixth-slide-text-content h3{
+    font-size: 24px;
+    color: #6739b7;
+}
+.sixth-slide-text-content p{
+    color: white;
+    font-size: 14px;
+}
+.sixth-slide-text-content button{
+    width: 150px;
+    height: 40px;
+    border:  1px solid black;
+    background-color: white;
+    color: black;
+}
+@media screen and (min-width:768px) {
+   .sixth-slide-text-content{
+    margin-left: 15vw;
+   }
+   .sixth-slide-text-content h1{
+    font-size: 42px;
+   }
+   .sixth-slide-text-content h3{
+    font-size: 28px;
+   }
+   .sixth-slide-text-content p{
+    font-size: 26px;
+   }
+ }
+
+
+.active-card{
+    margin-top:15px;
+    font-size: 18px;
+}
+.active-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0;
+ }
+
+
+
+
+.app-features{
+    text-align: justify;
+}
+.app-features h2{
+    font-size: 24px;
+    color: #6739b7;
+    font-weight: bold;
+}
+.app-features h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.app-features p{
+    font-size: 16px;
+    color: #0f0f0f;
+    font-weight: 300;
+}
+
+@media screen and (min-width:768px) {
+    .app-features h2{
+        font-size: 28px;
+    }
+    .app-features h3{
+        font-size: 24px;
+    }
+    .app-features p{
+        font-size: 20px;
+    }
+}
+
+.nt-insurance-image{
+    width: 500px;
+}
+.section-app-logo{
+    width: 200px;
+}
+.tile-image{
+    height: 300px;
+    width:250px;
+    background-size: cover;
+}
+.play-btn{
+    display: none;
+}
+.tile-image:hover{
+    transform: scale(1.2);
+    display: inline-block;
+}
+
+.trust-card-container{
+    padding-top: 20px;
+    width: 100%;
+    height:100%;
+    background-image: url("https://res.cloudinary.com/dlwydxzdi/image/upload/v1712917983/AppLanding/TrustCard/trust-banner-mob-a5d4684a1f4b662bbb83d13fb021f14d_sbjbnt.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 5px 15px 16px #cec3f1;
+    border-radius: 32px;
+    background-color: #967edd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.trust-logo{
+    width: 80px;
+   
+}
+.security-logo{
+    width: 100px;
+}
+.trust-card-container h1{
+    color: white;
+}
+.trust-card-container p{
+    color: white;
+}
+@media screen and (min-width:768px) {
+    .trust-card-container{
+    
+        background-image: url("https://res.cloudinary.com/dlwydxzdi/image/upload/v1712919782/AppLanding/TrustCard/trust-banner-861f26253b71e00c083fd5f6c2ea30fc_hjhxfg.png");
+
+    }
+    .trust-logo{
+       height: 120px;
+       width: 120px;
+       margin-left: 20px;
+    }
+   
+}
+
+.partner-showcase{
+    background: linear-gradient(#ddd8fa, #fff);
+    height: 100%;
+}
+.container-title{
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #361968;
+    text-align: center;
+}
+.partner-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: #10d6f2;
+    box-shadow: 0 17px 24px 0 transparent, 0 5px 12px 0 rgba(48,229,252,.5);
+}
+@media screen and (min-width:768px) {
+    .container-title{
+    
+        font-size:34px;
+    }
+}
+
+.partner-logo{
+    width: 100%;
+}
+.business-overview-container h1{
+    color: #663ab5;
+}
+.business-overview-container p{
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 7px;
+}
+.business-overview-container h3{
+    color: #323232;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -.33px;
+}
+
+
+.business-ul-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.business-selection-container:hover{
+    .effect{
+    
+    transform: translateX(5px)}
+}
+.flex-container{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: first baseline;
+}
+.flex-container p,i{
+    font-size: 18px;
+    font-weight: bold;
+    color: #6739b7;
+}
+
+.app-stats-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dlwydxzdi/image/upload/v1713190118/AppLanding/stats-mobile-0c043907c45331bcb5b0939fad6564fa_to9wih.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app-stats-container p{
+    color: #dcd3ff;
+    font-size: 18px;
+    line-height: 12px;
+}
+.app-stats-container h1{
+    color: #fff;
+    font-size: 26px;
+    line-height: 12px;
+}
+.app-stats-container h2{
+    color: #d4cbff;
+    font-size: 24px;
+}
+.app-stats-container button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid oldlace;
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width:768px) {
+    .app-stats-container{
+        background-image: url('https://res.cloudinary.com/dlwydxzdi/image/upload/v1713190118/AppLanding/stats-desktop-d03f14dfb53bebd5b23b63dd8e464adb_hevxd0.png');
+    }
+}
+.stats-align-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+
+
+.accordion .accordion-item {
+    border: none;
+    background-color: none;
+}
+.accordion .accordion-item .accordion-button:not(.focus){
+    background-color:transparent;
+    box-shadow: none;
+}
+.accordion .accordion-item .accordion-button:not(.collapsed)::after {
+
+    transform: rotate(90deg);
+}
+
+.accordion .accordion-item .accordion-button::after{
+ 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' width='10' viewBox='0 0 320 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z'/%3E%3C/svg%3E");
+
+}
+
+.accordion button{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.accordion .ul-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+}
+.accordion li{
+    font-size: 16px;
+    font-weight: 350;
+}
+.footer-content .ul-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.footer-content li{
+    font-size: 16px;
+    font-weight: 350;
+}
+@media  screen and (min-width:768px) {
+    .footer-content li{
+        font-size: 18px;
+    }
+}
+.footer-heading{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.certificate-logo{
+    width: 90px;
+}
+.footer-download-btn{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.certificate-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.playstore-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .certificate-container{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .playstore-container{
+        align-items: start;
+    }
+}
+
+.social-icons-main-container{
+    display: flex;
+    flex-direction: column;
+}
+.social-icons-container{
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .social-icons-container{
+       align-self: flex-end;
+       margin-right: 20px;
+    }
+}
